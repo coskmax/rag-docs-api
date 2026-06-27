@@ -1,0 +1,116 @@
+Collecting sentence-transformers
+  Downloading sentence_transformers-5.3.0-py3-none-any.whl (512 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 512.4/512.4 KB 640.9 kB/s eta 0:00:00
+Requirement already satisfied: typing_extensions>=4.5.0 in ./venv/lib/python3.10/site-packages (from sentence-transformers) (4.15.0)
+Collecting scikit-learn
+  Using cached scikit_learn-1.7.2-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (9.7 MB)
+Collecting huggingface-hub>=0.20.0
+  Downloading huggingface_hub-1.7.2-py3-none-any.whl (618 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 618.0/618.0 KB 1.4 MB/s eta 0:00:00
+Collecting torch>=1.11.0
+  Downloading torch-2.10.0-3-cp310-cp310-manylinux_2_28_x86_64.whl (915.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 915.5/915.5 MB ? eta 0:00:00
+Requirement already satisfied: tqdm in ./venv/lib/python3.10/site-packages (from sentence-transformers) (4.67.3)
+Collecting transformers<6.0.0,>=4.41.0
+  Downloading transformers-5.3.0-py3-none-any.whl (10.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.7/10.7 MB 2.0 MB/s eta 0:00:00
+Requirement already satisfied: numpy in ./venv/lib/python3.10/site-packages (from sentence-transformers) (2.2.6)
+Collecting scipy
+  Using cached scipy-1.15.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (37.7 MB)
+Collecting typer
+  Downloading typer-0.24.1-py3-none-any.whl (56 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 56.1/56.1 KB 1.2 MB/s eta 0:00:00
+Collecting hf-xet<2.0.0,>=1.4.2
+  Downloading hf_xet-1.4.2-cp37-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (4.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.2/4.2 MB 1.9 MB/s eta 0:00:00
+Collecting fsspec>=2023.5.0
+  Downloading fsspec-2026.2.0-py3-none-any.whl (202 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 202.5/202.5 KB 2.1 MB/s eta 0:00:00
+Requirement already satisfied: packaging>=20.9 in ./venv/lib/python3.10/site-packages (from huggingface-hub>=0.20.0->sentence-transformers) (26.0)
+Collecting filelock>=3.10.0
+  Downloading filelock-3.25.2-py3-none-any.whl (26 kB)
+Requirement already satisfied: httpx<1,>=0.23.0 in ./venv/lib/python3.10/site-packages (from huggingface-hub>=0.20.0->sentence-transformers) (0.28.1)
+Requirement already satisfied: pyyaml>=5.1 in ./venv/lib/python3.10/site-packages (from huggingface-hub>=0.20.0->sentence-transformers) (6.0.3)
+Collecting nvidia-cuda-nvrtc-cu12==12.8.93
+  Using cached nvidia_cuda_nvrtc_cu12-12.8.93-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl (88.0 MB)
+Collecting nvidia-nvjitlink-cu12==12.8.93
+  Using cached nvidia_nvjitlink_cu12-12.8.93-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl (39.3 MB)
+Collecting nvidia-cudnn-cu12==9.10.2.21
+  Using cached nvidia_cudnn_cu12-9.10.2.21-py3-none-manylinux_2_27_x86_64.whl (706.8 MB)
+Collecting nvidia-cuda-cupti-cu12==12.8.90
+  Using cached nvidia_cuda_cupti_cu12-12.8.90-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (10.2 MB)
+Collecting nvidia-cublas-cu12==12.8.4.1
+  Using cached nvidia_cublas_cu12-12.8.4.1-py3-none-manylinux_2_27_x86_64.whl (594.3 MB)
+Collecting nvidia-cufile-cu12==1.13.1.3
+  Using cached nvidia_cufile_cu12-1.13.1.3-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (1.2 MB)
+Collecting nvidia-cuda-runtime-cu12==12.8.90
+  Using cached nvidia_cuda_runtime_cu12-12.8.90-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (954 kB)
+Collecting triton==3.6.0
+  Downloading triton-3.6.0-cp310-cp310-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (188.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 188.1/188.1 MB 1.5 MB/s eta 0:00:00
+Collecting nvidia-cusparselt-cu12==0.7.1
+  Using cached nvidia_cusparselt_cu12-0.7.1-py3-none-manylinux2014_x86_64.whl (287.2 MB)
+Collecting sympy>=1.13.3
+  Using cached sympy-1.14.0-py3-none-any.whl (6.3 MB)
+Collecting jinja2
+  Using cached jinja2-3.1.6-py3-none-any.whl (134 kB)
+Collecting nvidia-nccl-cu12==2.27.5
+  Using cached nvidia_nccl_cu12-2.27.5-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (322.3 MB)
+Collecting nvidia-curand-cu12==10.3.9.90
+  Using cached nvidia_curand_cu12-10.3.9.90-py3-none-manylinux_2_27_x86_64.whl (63.6 MB)
+Collecting nvidia-cusolver-cu12==11.7.3.90
+  Using cached nvidia_cusolver_cu12-11.7.3.90-py3-none-manylinux_2_27_x86_64.whl (267.5 MB)
+Collecting cuda-bindings==12.9.4
+  Downloading cuda_bindings-12.9.4-cp310-cp310-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (12.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.1/12.1 MB 1.8 MB/s eta 0:00:00
+Collecting nvidia-nvshmem-cu12==3.4.5
+  Downloading nvidia_nvshmem_cu12-3.4.5-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (139.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 139.1/139.1 MB 377.7 kB/s eta 0:00:00
+Collecting networkx>=2.5.1
+  Using cached networkx-3.4.2-py3-none-any.whl (1.7 MB)
+Collecting nvidia-cufft-cu12==11.3.3.83
+  Using cached nvidia_cufft_cu12-11.3.3.83-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (193.1 MB)
+Collecting nvidia-cusparse-cu12==12.5.8.93
+  Using cached nvidia_cusparse_cu12-12.5.8.93-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (288.2 MB)
+Collecting nvidia-nvtx-cu12==12.8.90
+  Using cached nvidia_nvtx_cu12-12.8.90-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (89 kB)
+Collecting cuda-pathfinder~=1.1
+  Downloading cuda_pathfinder-1.4.3-py3-none-any.whl (47 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 48.0/48.0 KB 664.5 kB/s eta 0:00:00
+Collecting regex!=2019.12.17
+  Downloading regex-2026.2.28-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (791 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 791.7/791.7 KB 843.3 kB/s eta 0:00:00
+Collecting safetensors>=0.4.3
+  Using cached safetensors-0.7.0-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (507 kB)
+Collecting tokenizers<=0.23.0,>=0.22.0
+  Downloading tokenizers-0.22.2-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 875.6 kB/s eta 0:00:00
+Collecting joblib>=1.2.0
+  Using cached joblib-1.5.3-py3-none-any.whl (309 kB)
+Collecting threadpoolctl>=3.1.0
+  Using cached threadpoolctl-3.6.0-py3-none-any.whl (18 kB)
+Requirement already satisfied: idna in ./venv/lib/python3.10/site-packages (from httpx<1,>=0.23.0->huggingface-hub>=0.20.0->sentence-transformers) (3.11)
+Requirement already satisfied: httpcore==1.* in ./venv/lib/python3.10/site-packages (from httpx<1,>=0.23.0->huggingface-hub>=0.20.0->sentence-transformers) (1.0.9)
+Requirement already satisfied: anyio in ./venv/lib/python3.10/site-packages (from httpx<1,>=0.23.0->huggingface-hub>=0.20.0->sentence-transformers) (4.12.1)
+Requirement already satisfied: certifi in ./venv/lib/python3.10/site-packages (from httpx<1,>=0.23.0->huggingface-hub>=0.20.0->sentence-transformers) (2026.2.25)
+Requirement already satisfied: h11>=0.16 in ./venv/lib/python3.10/site-packages (from httpcore==1.*->httpx<1,>=0.23.0->huggingface-hub>=0.20.0->sentence-transformers) (0.16.0)
+Collecting mpmath<1.4,>=1.1.0
+  Using cached mpmath-1.3.0-py3-none-any.whl (536 kB)
+Collecting MarkupSafe>=2.0
+  Using cached markupsafe-3.0.3-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (20 kB)
+Collecting shellingham>=1.3.0
+  Downloading shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
+Requirement already satisfied: click>=8.2.1 in ./venv/lib/python3.10/site-packages (from typer->huggingface-hub>=0.20.0->sentence-transformers) (8.3.1)
+Collecting rich>=12.3.0
+  Downloading rich-14.3.3-py3-none-any.whl (310 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 310.5/310.5 KB 885.6 kB/s eta 0:00:00
+Requirement already satisfied: annotated-doc>=0.0.2 in ./venv/lib/python3.10/site-packages (from typer->huggingface-hub>=0.20.0->sentence-transformers) (0.0.4)
+Collecting pygments<3.0.0,>=2.13.0
+  Using cached pygments-2.19.2-py3-none-any.whl (1.2 MB)
+Collecting markdown-it-py>=2.2.0
+  Using cached markdown_it_py-4.0.0-py3-none-any.whl (87 kB)
+Requirement already satisfied: exceptiongroup>=1.0.2 in ./venv/lib/python3.10/site-packages (from anyio->httpx<1,>=0.23.0->huggingface-hub>=0.20.0->sentence-transformers) (1.3.1)
+Collecting mdurl~=0.1
+  Using cached mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Installing collected packages: nvidia-cusparselt-cu12, mpmath, triton, threadpoolctl, sympy, shellingham, scipy, safetensors, regex, pygments, nvidia-nvtx-cu12, nvidia-nvshmem-cu12, nvidia-nvjitlink-cu12, nvidia-nccl-cu12, nvidia-curand-cu12, nvidia-cufile-cu12, nvidia-cuda-runtime-cu12, nvidia-cuda-nvrtc-cu12, nvidia-cuda-cupti-cu12, nvidia-cublas-cu12, networkx, mdurl, MarkupSafe, joblib, hf-xet, fsspec, filelock, cuda-pathfinder, scikit-learn, nvidia-cusparse-cu12, nvidia-cufft-cu12, nvidia-cudnn-cu12, markdown-it-py, jinja2, cuda-bindings, rich, nvidia-cusolver-cu12, typer, torch, huggingface-hub, tokenizers, transformers, sentence-transformers
+Successfully installed MarkupSafe-3.0.3 cuda-bindings-12.9.4 cuda-pathfinder-1.4.3 filelock-3.25.2 fsspec-2026.2.0 hf-xet-1.4.2 huggingface-hub-1.7.2 jinja2-3.1.6 joblib-1.5.3 markdown-it-py-4.0.0 mdurl-0.1.2 mpmath-1.3.0 networkx-3.4.2 nvidia-cublas-cu12-12.8.4.1 nvidia-cuda-cupti-cu12-12.8.90 nvidia-cuda-nvrtc-cu12-12.8.93 nvidia-cuda-runtime-cu12-12.8.90 nvidia-cudnn-cu12-9.10.2.21 nvidia-cufft-cu12-11.3.3.83 nvidia-cufile-cu12-1.13.1.3 nvidia-curand-cu12-10.3.9.90 nvidia-cusolver-cu12-11.7.3.90 nvidia-cusparse-cu12-12.5.8.93 nvidia-cusparselt-cu12-0.7.1 nvidia-nccl-cu12-2.27.5 nvidia-nvjitlink-cu12-12.8.93 nvidia-nvshmem-cu12-3.4.5 nvidia-nvtx-cu12-12.8.90 pygments-2.19.2 regex-2026.2.28 rich-14.3.3 safetensors-0.7.0 scikit-learn-1.7.2 scipy-1.15.3 sentence-transformers-5.3.0 shellingham-1.5.4 sympy-1.14.0 threadpoolctl-3.6.0 tokenizers-0.22.2 torch-2.10.0 transformers-5.3.0 triton-3.6.0 typer-0.24.1
